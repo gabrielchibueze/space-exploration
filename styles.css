@@ -1,0 +1,67 @@
+.base {
+    margin: 0px;
+}
+.body {
+    color: white;
+    background-image: url("images/galaxy.gif");
+    background-size:cover;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    display: block;
+    padding-bottom: 110px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    
+}
+@font-face {
+    font-family: corleone;
+    src: url("Corleone.ttf");
+}
+.text1 {
+    font-family: inherit;
+    font-size: 85px;
+    font-weight: bolder;
+    margin-top: 50px;
+    text-shadow: 10px 10px 30px red;
+
+}
+.opening {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 80px;
+    background-color: rgb(56, 6, 88);
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    border-radius: 10px;
+    padding: 5px 5px;
+
+}
+.btn {
+    font-family: corleone;
+    font-size: 40px;
+    font-weight: 20px;
+    margin-left: 580px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.underline {
+    border-bottom: 10px white solid;
+    background-color: none;
+}
+#logo {
+    width: 200px;
+}
+.TandC {
+    height: 15px;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    border: 3px black;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: small;
+    color: black;
+}
